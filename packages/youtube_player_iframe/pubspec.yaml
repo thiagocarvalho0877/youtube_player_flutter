@@ -12,7 +12,10 @@ dependencies:
   flutter:
     sdk: flutter
 
-  flutter_inappwebview: '>=4.0.0 <5.0.0'
+  flutter_inappwebview:
+    git:
+      url: https://github.com/thiagocarvalho0877/flutter_inappwebview.git
+      ref: fix-youtube_player_flutter
 
 dev_dependencies:
   flutter_test:
